@@ -1,0 +1,34 @@
+<div class="youqing">
+    <div class="wz_title">
+        <span class="ppw">友情链接</span><span class="gd"></span>
+    </div>
+    <ul>
+        <?php foreach($d["partnersite"] as $key=>$item):?>
+        <li><a href="{$key}" title="{$item}">{$item}</a></li>
+        <?php endforeach;?>
+    </ul>
+</div>
+
+<div class="bottom">
+    <div class="end">
+        <div class="el">
+            <div class="dxx">
+                全国企业邮箱服务电话：
+                <?php if($d["contact_info"]):?>
+                <span title="{$d['contact_info']['title']}">{$d['contact_info']['contact']}</span>
+                <?php endif;?>
+                <br/>
+                {$d['copyright']}
+                &nbsp;备案信息:<a href="http://{$d['beian']['link']}" target="_blank">{$d["beian"]["beian_num"]}</a>
+            </div>
+        </div>
+        <div class="er"><img src="/templatestatic/er.jpg" /></div>
+    </div>
+</div>
+
+</body>
+</html>
+<?php if($d["after_head_jscode"]):?>
+<?php foreach($d["after_head_jscode"] as $item):?>
+{$item}
+<?php endforeach;endif;?>

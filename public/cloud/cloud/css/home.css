@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+    font-family:"微软雅黑";
+	}
+li{list-style:none;}
+a{color:#555; text-decoration:none;}
+.clearfix{clear:both;}
+input{outline:none; border:none;}
+
+
+@media (min-width: 769px) {
+	
+.ttop_pc{display:block;width:100%;margin:0 auto;}
+.ttop_pc img{width:100%;}
+.ttop_sj{display:none;}	
+
+.top_zi{width:801px;height:87px;line-height:87px; text-align:center;font-size:20px;color:#fff; background:url(../images/top_zibg.png)
+ no-repeat left center; position:absolute;left:50%; margin-left:-400px;top:65%;}
+.logo_box{margin-left:3%;padding-top:2%;}
+.shenqing .btn{display:block;width:35%;height:42px;line-height:42px;background:#108fdf;color:white;border-radius:6px;font-size:18px;
+cursor:pointer;margin:0px auto;}
+
+.two_box{width:100%; background:#f1f2f4;margin:30px auto; overflow:hidden; padding:30px 0;}
+.two{width:1200px;margin:0 auto; font-size:14px; line-height:28px;}
+.title_box{font-size:18px; text-align:center; border-bottom:1px solid #ccc; margin-bottom:15px;}
+.title{width:200px; border-bottom:2px solid #118ede;margin:0 auto;line-height:52px;}
+
+.three{width:1200px; margin:30px auto;}
+.three_img{width:100%; overflow:hidden;margin-top:20px;}
+.three_column{ display:none;}
+
+.four_box{width:100%; margin:20px auto; background:#f1f2f4; padding:30px 0;}
+.four{width:1200px; margin:0 auto; overflow:hidden;}
+.four_col{width:23%;float:left; margin:20px 1%;}
+
+.five .title{width:240px;}
+.five {width:1200px;margin:0 auto;font-size:14px; line-height:28px;} 
+
+.six .title{width:390px;}
+.six{width:1200px;margin:30px auto;overflow:hidden;}
+.six_col{width:44%; float:left; margin:15px 3%;}
+.six_bt{width:100%; text-align:center; color:#fff; background:#177bc1;line-height:46px; font-size:20px;}
+.six_nr{width:98%; height:125px; padding:1%;background:#e8e8e8; color:#555;line-height:28px;font-size:14px;}
+
+.footer_box{width:100%; margin:0 auto; background:#f9f9f9;padding:30px 0;}
+.footer{width:1200px; margin:0 auto; overflow:hidden;}
+.foot_left{width:48%; float:left;}
+.foot_left img{width:100%;}
+.foot_right{width:48%; float:right;}
+.foot_tel{ font-size:20px;color:#333;line-height:62px; padding-left:64px; background:url(../images/tel_di.png) no-repeat left center;}
+.foot_xj{font-size:16px;color:#333;line-height:28px;}
+
+}
+
+
+@media (max-width: 769px) {
+
+.ttop_pc{display:none;}
+.ttop_sj{display:block;width:100%; margin:0 auto;}
+.ttop_sj img{width:100%;}
+	
+.top_zi{width:100%;height:72px;line-height:72px; text-align:center;font-size:18px;color:#fff; background:url(../images/top_zibg.png)
+ no-repeat center center;}
+.logo_box{width:50%;margin:0 auto;padding-top:20px;}
+.logo_box img{width:100%;}	
+.sjtop_zi{margin:10px 0;font-size:22px;color:#fff; font-weight:bold; line-height:36px; text-align:center;}
+.shenqing .btn{display:block;width:75%;height:36px;line-height:36px;background:#108fdf;color:white;border-radius:6px;font-size:16px;
+cursor:pointer;margin:10px auto !important;}
+
+.two_box{width:100%; background:#f1f2f4; margin:20px auto; overflow:hidden; padding:15px 0;}
+.two{width:94%;margin:0 auto; font-size:14px; line-height:24px;}
+.title_box{ font-size:18px; text-align:center; border-bottom:1px solid #ccc; margin-bottom:15px;}
+.title{width:100%; border-bottom:2px solid #118ede;margin:0 auto;line-height:32px;}
+
+.three{width:94%; margin:15px auto; overflow:hidden;}
+.three_col{ float:left;width:159px; margin:15px 10px;}
+.three_col img{width:100%;}
+.three_img{ display:none;}
+.three_column{ display:block;}
+.three_col{ float:left; margin:10px 5px;}
+
+.four_box{width:100%; margin:20px auto; background:#f1f2f4; padding:10px 0;}
+.four{width:96%; margin:0 auto; overflow:hidden;}
+.four_col{width:48%;float:left; margin:10px 1%;}
+.four_col img{width:100%;}
+
+.five{width:94%;margin:0 auto; font-size:14px; line-height:24px;}
+
+.six .title_box{font-size:15px;margin-top:10px;}
+.six{width:100%;margin:20px auto; overflow:hidden;}
+.six_col{width:96%;  margin:15px auto;}
+.six_bt{width:100%; text-align:center; color:#fff; background:#177bc1;line-height:46px; font-size:20px;}
+.six_nr{width:98%; height:125px; padding:1%;background:#e8e8e8; color:#555;line-height:24px;font-size:14px;}
+
+.footer_box{width:100%; margin:0 auto; background:#f9f9f9;padding:30px 0;}
+.footer{width:96%; margin:0 auto; overflow:hidden;}
+.foot_left{width:100%;overflow:hidden;}
+.foot_left img{width:100%;}
+.foot_right{width:98%;}
+.foot_tel{ font-size:20px;color:#333;line-height:62px; padding-left:64px; background:url(../images/tel_di.png) no-repeat left center;
+margin-top:15px;}
+.foot_xj{font-size:14px;color:#333;line-height:24px;}
+	
+}
+
+
+.shenqing{ width:100%; margin:0 auto;}
+.shenqing label{width:30%;display:block;text-align:right;float:left; line-height:45px;}
+
+.shenqing .xuqiu{height:100px;}
+.you_xq select{width:35%; height:35px;margin-top:6px;}
+
+.seven_box{width:100%;margin:0 auto; background:#108fdf;padding:10px 0;}
+.seven{width:215px; margin:0 auto; color:#fff; padding:10px; border-radius:8px; padding-left:42px; 
+background:url(../images/seven.png) no-repeat left center;}
+
+
+@media (min-width: 769px) {
+.hdbd{width:996px; height:auto; margin:20px auto; background:#f4f8fa; }
+.hdbdnr{ width:90%; margin:0px auto; padding:40px 0;}
+.shenqing h1{color:black;font-size:20px; width:100%; text-align:center; line-height:65px; }
+.shenqing label{font-size:16px; }
+.shenqing h2{ margin-top:25px; font-size:20px; line-height:38px; text-align:center;}
+.shenqing div{margin:15px auto;display:block;width:90%; overflow:hidden}
+.shenqing input{width:55%;height:35px; background-color:white;border:1px solid #c2c2c0;color:#555; text-indent:10px;margin-top:6px; }
+}
+
+@media (max-width: 769px) {
+.hdbd{width:95%; height:auto; margin:10px auto; border:2px dashed #f1f2f4; padding:2% 0; }
+.hdbdnr{width:90%; margin:0px auto; padding:10px 0;}
+.shenqing h1{color:black;font-size:16px; width:100%;text-align:center; line-height:54px;}
+.shenqing label{font-size:14px;}
+.shenqing div{margin:5px auto;display:block;width:100%; overflow:hidden;}
+.shenqing h2{ line-height:24px; font-size:16px; text-align:center; padding-top:10px;}
+.shenqing input{width:62%;height:35px; background-color:white;border:1px solid #c2c2c0;color:#555; text-indent:10px;margin-top:6px; }
+}
+
